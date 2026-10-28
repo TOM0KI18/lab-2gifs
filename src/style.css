@@ -32,6 +32,7 @@ input {
     padding: 10px;
     font-size: 1rem; 
     border: 1px solid #cccccc;
+    border-color: blue;
     border-radius: 4px;
     box-sizing: border-box; 
     outline: none;
@@ -82,4 +83,8 @@ h3 {
     color: #333333;
     width: 100%;
     box-sizing: border-box;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
